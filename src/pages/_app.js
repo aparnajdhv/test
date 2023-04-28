@@ -1,6 +1,6 @@
 import '@/styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Header from '@/components/Header';
+import Header from '@/components/header';
 import { Footer } from '@/components/footer';
 import { Menu } from '@/components/menu';
 
