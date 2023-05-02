@@ -1,13 +1,13 @@
 body{
     margin: 0;
 }
-.header{
-    font-size: 50px;
-    font-weight: bold;
+.header{    
     display: flex;
+    height: 80px;
 }
 .logo{
     width: 20%;
+
 }
 .signInUp{
     width: 80%;
@@ -96,6 +96,10 @@ body{
     color:#fff;
 }
 
+.activeMenu{
+    color:#fff;
+}
+
 .footer{
     line-height: 50px;
     background-color: #3e4855;
@@ -104,3 +108,14 @@ body{
     position: fixed;
     bottom: 0;
 }
+
+.copyRights{
+    display: inline-block;
+    text-align: left;
+}
+
+.socialMedia{
+    display: inline-block;
+    text-align: right;
+}
+

@@ -2,6 +2,13 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <div className='footer'>Footer</div>
+    <div className='footer'>
+      <div className='copyRights'>
+        &copy; Rights belongs to Aparna Kadam
+      </div>
+      <div className='socialMedia'>
+        <img />
+      </div>
+    </div>
   )
 }
