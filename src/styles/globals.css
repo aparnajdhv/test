@@ -2,12 +2,17 @@ body{
     margin: 0;
 }
 .header{    
-    display: flex;
+    display: inline-block;
     height: 80px;
+    width: 30%;
 }
 .logo{
     width: 20%;
-
+    margin: auto 10px;
+}
+.logo-img{
+    height: 55px;
+    width: 70px;
 }
 .signInUp{
     width: 80%;
@@ -66,17 +71,20 @@ body{
 
 
 .menu{
-    background-color: #5c758b;
+    width: 70%;
+    display: inline-block;
+    /* overflow: hidden; */
     line-height: 50px;
     font-size: 20px;
+    text-align: right;
 }
 
-.menu ul{
+/* .menu ul{
     
     display: flex;
     justify-content: flex-end;
     margin: 0;
-}
+} */
 .menuList{
     color: #000;
     text-decoration: none;
@@ -84,6 +92,9 @@ body{
 }
 
 .menu li{
+    display: inline;
+    justify-content: flex-end;
+    
     list-style: none;
     margin-right: 20px;
     letter-spacing: 2px;
@@ -105,9 +116,11 @@ body{
 }
 
 .activeMenu{
-    color:#fff;
+    color:#e7b309;
     text-decoration: none;
     font-weight: bold;
+    text-shadow: 1px 1px #553e0b;
+    
 }
 
 .footer{
@@ -129,3 +142,39 @@ body{
     text-align: right;
 }
 
+.mobile-menu-btn{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+  .mobile-menu{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    background: #dadae6;
+    list-style-type: none;
+    line-height: 40px;
+    position: absolute;
+    top: 43px;
+    transition: right 1s;
+    transform-style: flat;
+    padding: 20px;
+  }
+
+  /* .mobile-menu  ul{
+    display: inline-block;
+  } */
+  
+  .mobile-menu > li{
+    display: inline-block;
+    letter-spacing: 5px;
+    font-weight: bold;
+  }
+  .close-btn{
+    position: absolute;
+      right: 0;
+      top: -10px;
+      font-size: 25px;
+      font-weight: 400;
+      cursor: pointer;
+  }
